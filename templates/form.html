@@ -1,0 +1,8 @@
+<h1>{{title}}</h1>
+<form method="POST" action="">{%csrf_token%}
+Enter Your Twitter UserName
+	{{form.as_p}}
+	<input type="submit" value="Enter">
+</form>
+
+<a href="{{twitter}}">Your Twitter Page</a>
